@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="text_blue">#3ECEB6</color>
+    <color name="text_personal_score">#FAAD14</color>
+    <color name="dark_blue_bg">#58A6FF</color>
+</resources>

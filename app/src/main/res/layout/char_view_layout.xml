@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_gravity="left"
+                    android:text="椭圆图表:"
+                    android:textColor="#2D2D2D"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="交易量分析(笔)"
+                    android:textColor="#2D2D2D"
+                    android:textSize="18sp" />
+
+                <com.example.mycustonchartview.widght.HalfCircleProgressView
+                    android:id="@+id/jiaoyi_half_progress"
+                    android:layout_width="226dp"
+                    android:layout_height="142dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    app:half_circle_backgroudColor="#ffffff"
+                    app:half_circle_circleWidth="10dp"
+                    app:half_circle_name="698"
+                    app:half_circle_padding="5dp"
+                    app:half_circle_progressColor="#ffffff"
+                    app:half_circle_textColors="#333333"
+                    app:half_circle_textSizes="21sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="380"
+                            android:textColor="#2d2d2d"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="9dp"
+                            android:text="门诊"
+                            android:textColor="#2d2d2d"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="15dp"
+                            android:layout_height="4dp"
+                            android:layout_marginTop="6dp"
+                            android:background="#2d2d2d"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="380"
+                            android:textColor="#2d2d2d"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="9dp"
+                            android:text="住院"
+                            android:textColor="#2d2d2d"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="15dp"
+                            android:layout_height="4dp"
+                            android:layout_marginTop="6dp"
+                            android:background="#2d2d2d"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="380"
+                            android:textColor="#2d2d2d"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="9dp"
+                            android:text="问诊"
+                            android:textColor="#2d2d2d"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="15dp"
+                            android:layout_height="4dp"
+                            android:layout_marginTop="6dp"
+                            android:background="#2d2d2d"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="left"
+                android:text="圆柱:"
+                android:textColor="#2D2D2D"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="280dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="1"
+                    android:gravity="right|bottom"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginRight="3dp"
+                        android:textSize="14sp"
+                        android:text="100"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginRight="3dp"
+                        android:textSize="14sp"
+                        android:text="80"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:textSize="14sp"
+                        android:layout_marginRight="3dp"
+                        android:text="60"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:textSize="14sp"
+                        android:layout_marginRight="3dp"
+                        android:text="40"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginRight="3dp"
+                        android:textSize="14sp"
+                        android:text="20"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginRight="3dp"
+                        android:textSize="14sp"
+                        android:text="0"/>
+
+                </LinearLayout>
+
+                <com.example.mycustonchartview.widght.MultiGroupHistogramView
+                    android:id="@+id/multiGroupHistogramView"
+                    android:layout_width="0dp"
+                    android:layout_height="280dp"
+                    android:layout_weight="12"
+                    app:chartPaddingTop="10dp"
+                    app:coordinateAxisColor="#E2E9E8"
+                    app:coordinateAxisWidth="1dp"
+                    app:distanceFormGroupNameToAxis="10dp"
+                    app:distanceFromValueToHistogram="10dp"
+                    app:groupInterval="30dp"
+                    app:groupNameTextColor="#FF727884"
+                    app:groupNameTextSize="13sp"
+                    app:histogramHistogramWidth="20dp"
+                    app:histogramInterval="5dp"
+                    app:histogramPaddingEnd="15dp"
+                    app:histogramPaddingStart="15dp"
+                    app:histogramValueDecimalCount="ZERO"
+                    app:histogramValueTextColor="#FF727884"
+                    app:histogramValueTextSize="10sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="left"
+                android:text="折线:"
+                android:textColor="#2D2D2D"
+                android:textSize="18sp" />
+
+            <com.example.mycustonchartview.widght.ChartView
+                android:id="@+id/chart_qushi_view"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="20dp"
+                app:bg_color="#ffffff"
+                app:interval="85dp"
+                app:isScroll="true"
+                app:line_color="@color/text_blue"
+                app:xy_line_color="#e2e2e2"
+                app:xy_line_width="2.5dp"
+                app:xy_text_color="#7e7e7e"
+                app:xy_text_size="12sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="left"
+                android:text="扇形图表:"
+                android:textColor="#2D2D2D"
+                android:textSize="18sp" />
+
+            <com.example.mycustonchartview.widght.PieChartView
+                android:id="@+id/percentPieView"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginBottom="10dp"
+                android:background="#fff"
+                app:centerTextColor="#000000"
+                app:centerTextSize="18sp"
+                app:circleWidth="27dp"
+                app:dataTextColor="#ffffff"
+                app:dataTextSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="left"
+                android:text="多折线:"
+                android:textColor="#2D2D2D"
+                android:textSize="18sp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:id="@+id/LineLL"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <com.example.mycustonchartview.widght.CompoundLineView
+                        android:id="@+id/skinLineView"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

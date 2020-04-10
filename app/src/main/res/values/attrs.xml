@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- xy坐标轴颜色 -->
+    <attr name="isScroll" format="boolean" />
+    <attr name="interval" format="dimension" />
+    <attr name="xy_line_color" format="color" />
+    <!-- xy坐标轴宽度 -->
+    <attr name="xy_line_width" format="dimension" />
+    <!-- xy坐标轴文字颜色 -->
+    <attr name="xy_text_color" format="color" />
+    <!-- xy坐标轴文字大小 -->
+    <attr name="xy_text_size" format="dimension" />
+    <!-- 折线图中折线的颜色 -->
+    <attr name="line_color" format="color" />
+    <!-- x轴各个坐标点水平间距 -->
+    <!-- 背景颜色 -->
+    <attr name="bg_color" format="color" />
+    <!-- 曲线选中外部颜色 -->
+    <attr name="select_circle_color" format="color" />
+    <!-- 曲线选中内部颜色 -->
+    <attr name="select_reminder_color" format="color" />
+    <!--是否抬手滚动-->
+    <declare-styleable name="ChartLineView">
+        <attr name="xy_line_color" />
+        <attr name="xy_line_width" />
+        <attr name="xy_text_color" />
+        <attr name="xy_text_size" />
+        <attr name="line_color" />
+        <attr name="interval" />
+        <attr name="bg_color" />
+        <attr name="select_circle_color" />
+        <attr name="select_reminder_color" />
+        <attr name="isScroll" />
+        <!--提示框跟滑动显示的位置-->
+        <attr name="show_position">
+            <enum name="first" value="1" />
+            <enum name="middle" value="2" />
+            <enum name="end" value="3" />
+        </attr>
+    </declare-styleable>
+
+
+    <attr name="half_circle_backgroudColor" format="color" />
+    <attr name="half_circle_circleWidth" format="dimension" />
+    <attr name="half_circle_progressColor" format="color" />
+    <attr name="half_circle_textColors" format="color" />
+    <attr name="half_circle_padding" format="dimension" />
+    <attr name="half_circle_name" format="string" />
+    <attr name="half_circle_textSizes" format="dimension" />
+    <declare-styleable name="HalfCircleProgressView">
+        <attr name="half_circle_backgroudColor" />
+        <attr name="half_circle_progressColor" />
+        <attr name="half_circle_circleWidth" />
+        <attr name="half_circle_textColors" />
+        <attr name="half_circle_textSizes" />
+        <attr name="half_circle_name" />
+        <attr name="half_circle_padding" />
+    </declare-styleable>
+
+    <declare-styleable name="PieView">
+        <attr name="centerTextSize" format="dimension" />
+        <attr name="dataTextSize" format="dimension" />
+        <attr name="centerTextColor" format="color" />
+        <attr name="dataTextColor" format="color" />
+        <attr name="circleWidth" format="dimension" />
+    </declare-styleable>
+
+
+    <declare-styleable name="MultiGroupHistogramView">
+        <attr name="coordinateAxisWidth" format="dimension" />
+        <attr name="coordinateAxisColor" format="color" />
+        <attr name="groupNameTextColor" format="color" />
+        <attr name="groupNameTextSize" format="dimension" />
+        <attr name="groupInterval" format="dimension" />
+        <attr name="histogramInterval" format="dimension" />
+        <attr name="histogramValueTextColor" format="color" />
+        <attr name="histogramValueTextSize" format="dimension" />
+        <attr name="histogramHistogramWidth" format="dimension" />
+        <attr name="histogramPaddingStart" format="dimension" />
+        <attr name="histogramPaddingEnd" format="dimension" />
+        <attr name="chartPaddingTop" format="dimension" />
+        <attr name="distanceFormGroupNameToAxis" format="dimension" />
+        <attr name="distanceFromValueToHistogram" format="dimension" />
+        <!--图表数值小数点位数-->
+        <attr name="histogramValueDecimalCount">
+            <enum name="ZERO" value="0" />
+            <enum name="ONE" value="1" />
+            <enum name="TWO" value="2" />
+        </attr>
+    </declare-styleable>
+
+</resources>
